@@ -1,0 +1,15 @@
+{
+  "name": "03-single-product-lookup",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Express GET /prodotti/:id route with dynamic parameter lookup and 404 handling",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node --watch server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
