@@ -1,0 +1,15 @@
+{
+  "name": "06-delete-product-endpoint",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Express DELETE /prodotti/:id route to remove a product with 200/404 response",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node --watch server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
