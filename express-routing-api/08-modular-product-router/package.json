@@ -1,0 +1,15 @@
+{
+  "name": "08-modular-product-router",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Express app with modular express.Router() architecture mounted on custom paths",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node --watch server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
