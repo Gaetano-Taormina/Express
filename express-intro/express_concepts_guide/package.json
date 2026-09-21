@@ -1,0 +1,10 @@
+{
+  "name": "express-concepts-guide",
+  "version": "1.0.0",
+  "description": "Mini guida concettuale su Express.js, routing e query string",
+  "type": "module",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
