@@ -1,0 +1,10 @@
+{
+  "name": "express-interview-simulation",
+  "version": "1.0.0",
+  "description": "Simulazione di interrogazione guidata con AI sui concetti di Express",
+  "type": "module",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
