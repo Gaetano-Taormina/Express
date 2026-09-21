@@ -1,0 +1,23 @@
+{
+  "name": "boardgame_catalog_api",
+  "version": "1.0.0",
+  "description": "Catalogo giochi da tavolo sviluppato in pair programming",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "predev": "kill-port 3000",
+    "dev": "node --watch server.js",
+    "lint": "oxlint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@11.25.0",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "kill-port": "^2.0.1",
+    "oxlint": "^1.82.0"
+  }
+}
