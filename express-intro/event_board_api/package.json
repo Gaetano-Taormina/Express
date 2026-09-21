@@ -1,0 +1,23 @@
+{
+  "name": "event_board_api",
+  "version": "1.0.0",
+  "description": "Server per bacheca eventi con flusso di debugging guidato",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "predev": "kill-port 3000",
+    "dev": "node --watch server.js",
+    "lint": "oxlint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@11.25.0",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "kill-port": "^2.0.1",
+    "oxlint": "^1.82.0"
+  }
+}
